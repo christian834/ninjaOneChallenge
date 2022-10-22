@@ -3,7 +3,7 @@
 
 This project is created with intellij, you are free to compile this project on this enviorment,
 
-If you cant, dont worry, there are an artifact that you can use, you should installed java8+
+If you cant, dont worry, there are an artifact that you can use, you should have installed java8+
 
 ## Run
 
