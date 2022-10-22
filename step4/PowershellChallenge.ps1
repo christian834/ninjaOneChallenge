@@ -6,7 +6,7 @@
 # First this shell gets a Virtual machine called WPM after that save a variable with a NinjaRPM folder,
 # after this execute an script into virtual machine that we get on first step, validate output from this script
 # and send some messaje if script is succesful or have an error.
-# do a similar thing with in this case with an executable
+# do a similar thing one next steps but in this case with an executable
 #2.) What does the program assume you need to have access to in order to execute? 
 # You need to have administration access an Virtual Machine called WPM installed, and execution grants
 #3.) What architectures can this script run on? 
