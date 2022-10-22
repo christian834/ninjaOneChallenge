@@ -50,7 +50,7 @@ public class SixDegreesMoviesService {
         }
 
         //Using a static path, but this could be parameterized
-        try(JsonReader reader = fileController.openFile("../../../output-from-1980-to-1989.json")) {
+        try(JsonReader reader = fileController.openFile("./80s-movies.json")) {
 
             movies = gson.fromJson(reader, new TypeToken<List<MovieDTO>>(){}.getType());
             movies = movies.stream().filter(movie -> movie.getCast().size() > 0).collect(Collectors.toList());
